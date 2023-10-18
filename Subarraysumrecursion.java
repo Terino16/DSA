@@ -5,8 +5,8 @@ public class Subarraysumrecursion {
     
     public static void main(String[] args) {
 
-        int a[]={1 ,2 ,3 ,1 ,1 ,1};
-        long k=3;
+        int a[]={1 ,2 ,1,3};
+        long k=2;
         System.out.println(subarraysWithSumKwithlist(a,k));
         
     }
@@ -58,3 +58,5 @@ public class Subarraysumrecursion {
             subarraywithlist(a,k,sum,i+1,temp,result);
         }
 }
+
+
